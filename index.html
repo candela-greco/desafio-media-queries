@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/estilos.css">
+        <script src="https://kit.fontawesome.com/a1bd5d6a81.js" crossorigin="anonymous"></script>
+        <title>Desafio Electric Car</title>
+    </head>
+    <body>
+        <!-- DIV PARA GRID ESCRITORIO-->
+        <div class="grid-escritorio">
+        <!--MENU DE NAVEGACION-->
+        <header>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <a href="#" class="marca">Squares</a>
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                    <ul class="nav-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- SECCION DE FILTROS DE BUSQUEDA -->
+        <section>
+            <div class="filtros">
+                <div class="opciones">
+                <label for="categorias">Ordenar por:</label>
+                </div>
+                <select id="categorias">
+                    <option value="destacados">Destacados</option>
+                    <option value="mejor-puntuados">Mejor Puntuados</option>
+                    <option value="precio-ascendente">Precio ascendente</option>
+                    <option value="precio-descendente">Precio descendente</option>
+                </select>
+            </div>
+        </section>
+        <!-- SECCION PRINCIPAL -->
+        <main class="contenedor-grid">
+            <div class="card-producto">
+                <img src="assets/imgs/bombon.jpg" alt="foto de cuadro bombon">
+                <h3>Cuadro Bombon</h3>
+                <p>$8.500</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/bart.jpg" alt="foto de cuadro bart">
+                <h3>Cuadro Bart</h3>
+                <p>$10.999</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/rick.jpg" alt="foto de cuadro rick">
+                <h3>Cuadro Rick</h3>
+                <p>$8.500</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/pantera.jpg" alt="foto de cuadro pantera rosa">
+                <h3>Cuadro Pantera rosa</h3>
+                <p>$14.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/lisa.jpg" alt="foto de cuadro lisa">
+                <h3>Cuadro Lisa</h3>
+                <p>$10.999</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/bugs.jpg" alt="foto de cuadro bugs">
+                <h3>Cuadro Bugs Bunny</h3>
+                <p>$11.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/homero.jpg" alt="foto de cuadro homero">
+                <h3>Cuadro Homero</h3>
+                <p>$15.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/101dalmatas.jpg" alt="foto de cuadro 101 dalmatas">
+                <h3>Cuadro 101 Dalmatas</h3>
+                <p>$8.500</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/lucas.jpg" alt="foto de cuadro lucas">
+                <h3>Cuadro Lucas</h3>
+                <p>$10.999</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card-producto">
+                <img src="assets/imgs/tom.jpg" alt="foto de cuadro tom" >
+                <h3>Cuadro Tom</h3>
+                <p>$11.000</p>
+                <button>Comprar</button>
+            </div>
+        </main>
+        <!-- PAGINADOR -->
+        <div class="paginador">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo;</a>
+        </div>
+        <!-- FOOTER -->
+        <footer class="pie-de-pagina">
+          <a href="https://www.facebook.com/?locale=es_LA"><i  class="fa-brands fa-square-facebook fa-xl"></i></a></i>
+          <a href="https://www.instagram.com/" ><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <p> &copy; Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
